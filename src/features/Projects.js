@@ -52,7 +52,7 @@ const Projects = () => {
 						}
 						tool1={'VS Code'}
 						tool2={'React'}
-						tool3={'Chakra ui'}
+						tool3={'Chakra UI'}
 						tool4={'TMDb API'}
 						tool5={'Firebase'}
 						link1={'https://dibbyashrestha.web.app/'}
