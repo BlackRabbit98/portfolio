@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import { Flex } from '@chakra-ui/layout';
 import './App.css';
+import About from './features/About';
+import Header from './components/Header';
+import Hero from './features/Hero';
+import Projects from './features/Projects';
+import Contact from './features/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<Header />
+			<Flex minWidth="100vw" direction="column" align="center">
+				<Hero />
+				<About />
+				<Projects />
+				<Contact />
+			</Flex>
+		</>
+	);
+};
 
 export default App;
