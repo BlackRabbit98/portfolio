@@ -1,11 +1,18 @@
 import { Button } from '@chakra-ui/button';
 import { Box, Flex, Link, Text } from '@chakra-ui/layout';
 import React from 'react';
+import { useNavigate } from 'react-router';
 import FlexContainer from '../components/FlexContainer';
 
 const Hero = () => {
+	const navigate = useNavigate();
+
+	const navigateHandler = (link) => {
+		navigate(link);
+	};
+
 	return (
-		<FlexContainer>
+		<FlexContainer id="hero">
 			<Flex
 				minHeight="100vh"
 				flexDirection="column"
@@ -39,7 +46,10 @@ const Hero = () => {
 					variant="outline"
 					p="1.85rem"
 					marginTop="50px"
-					cursor="pointer">
+					cursor="pointer"
+					transition="all 0.25s cubic-bezier(0.645,0.045,0.355,1)"
+					_hover={{ bg: 'rgba(100,255,218,0.1)' }}
+					onClick={() => navigateHandler('/#projects')}>
 					Check out my Projects!
 				</Button>
 			</Flex>

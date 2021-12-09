@@ -8,7 +8,7 @@ import proj3 from '../assets/images/Proj3.png';
 
 const Projects = () => {
 	return (
-		<FlexContainer w="100%" py={['10px', '10px', '100px', '100px']}>
+		<FlexContainer id="projects" w="100%" py={['10px', '10px', '100px', '100px']}>
 			<Flex flexDirection="column" textAlign="left">
 				<Heading
 					fontFamily="Roboto Condensed"

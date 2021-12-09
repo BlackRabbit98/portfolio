@@ -11,7 +11,10 @@ import { FaNodeJs } from 'react-icons/fa';
 
 const About = () => {
 	return (
-		<FlexContainer textAlign="left" py={['10px', '10px', '100px', '100px']}>
+		<FlexContainer
+			id="about"
+			textAlign="left"
+			py={['10px', '10px', '100px', '100px']}>
 			<Heading fontFamily="Roboto Condensed" fontSize="3xl">
 				About Me
 			</Heading>
@@ -19,24 +22,18 @@ const About = () => {
 				<Box w="48%">
 					<Text>
 						Hello! My name is Dibbya and I enjoy creating things
-						that live on the internet. My interest in web
-						development started back in 2012 when I decided to try
-						editing custom Tumblr themes — turns out hacking
-						together a custom reblog button taught me a lot about
-						HTML & CSS!
+						that live on the internet.
 					</Text>
 					<Text marginTop="15px">
-						Fast-forward to today, and I’ve had the privilege of
-						working at an advertising agency, a start-up, a huge
-						corporation, and a student-led design studio. My main
-						focus these days is building accessible, inclusive
-						products and digital experiences at Upstatement for a
-						variety of clients.
+						I love combining the art of design with the art of
+						programming. I currently specialise in ReactJS and
+						NodeJS due to its nature of being fast, scalable, and
+						simple.
 					</Text>
 					<Text marginTop="15px">
-						Fast-forward to today, and I’ve had the privilege of
-						working at an advertising agency, a start-up, a huge
-						corporation, and a student-led design studio.
+						I will love to hear from you. Whether it's a project,
+						job opportunity, or just a chat. Feel free to contact
+						me.
 					</Text>
 				</Box>
 				<Box w="48%" h="100px">
