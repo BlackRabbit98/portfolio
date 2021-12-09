@@ -84,7 +84,7 @@ const ProjectsContainer = ({
 						h={6}
 						margin="15px"
 						cursor="pointer"
-						onClick={onClickHandler}
+						onClick={onClickHandler2}
 					/>
 					<Icon
 						as={FiExternalLink}
@@ -92,7 +92,7 @@ const ProjectsContainer = ({
 						h={6}
 						margin="15px"
 						cursor="pointer"
-						onClick={onClickHandler2}
+						onClick={onClickHandler}
 					/>
 				</Flex>
 			</Flex>

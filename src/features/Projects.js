@@ -22,33 +22,39 @@ const Projects = () => {
 						image={proj1}
 						title={'Trailerzz website'}
 						description={
-							'A minimal, dark blue theme for VS Code, Sublime Text, atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.'
+							'Trailerzz is a web app that I created where people can watch movie and tvShows  trailers. Developed with React, Redux, TMDB api, and Firebase.'
 						}
 						tool1={'VS Code'}
 						tool2={'React'}
 						tool3={'Chakra ui'}
 						tool4={'TMDb API'}
 						tool5={'Firebase'}
+						link1={'https://trailerzz.web.app/'}
+						link2={
+							'https://github.com/BlackRabbit98/trailer-website'
+						}
 					/>
 					{/* Project 2 */}
 					<ProjectsContainer
 						image={proj2}
-						title={'Trailerzz website'}
+						title={'TechShop Commercial website'}
 						description={
-							'A minimal, dark blue theme for VS Code, Sublime Text, atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.'
+							'This is an ecommerce application with paypal integration. It has both admin and customer functionality. Developed with React, Redux, and Node.'
 						}
 						tool1={'VS Code'}
 						tool2={'React'}
 						tool3={'Chakra ui'}
 						tool4={'TMDb API'}
 						tool5={'Firebase'}
+						link1={'https://techshop-project.web.app/'}
+						link2={'https://github.com/BlackRabbit98/'}
 					/>
 					{/* Project 3 */}
 					<ProjectsContainer
 						image={proj3}
-						title={'Trailerzz website'}
+						title={'My Portfolio'}
 						description={
-							'A minimal, dark blue theme for VS Code, Sublime Text, atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.'
+							'The portfolio app is my personal project that displays my capabilities as a web dev. Developed with love using React.'
 						}
 						tool1={'VS Code'}
 						tool2={'React'}
@@ -56,7 +62,7 @@ const Projects = () => {
 						tool4={'TMDb API'}
 						tool5={'Firebase'}
 						link1={'https://dibbyashrestha.web.app/'}
-						link2={''}
+						link2={'https://github.com/BlackRabbit98/portfolio'}
 					/>
 				</Flex>
 			</Flex>
